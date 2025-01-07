@@ -1,0 +1,420 @@
+.payment{
+    gap: 300px;
+    margin-top: 180px;
+    display: flex;
+    padding-bottom: 100px;
+    align-items: start;
+    justify-content: space-between;
+    > .payments{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        > .payment-border{
+            display: flex;
+            width: 70%;
+            justify-content: space-between;
+            border-top: 1px solid rgb(192, 192, 183);
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+            > div{
+                margin-top: -16px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            .level{
+                width: 25px !important;
+                height: 25px;
+                color: #fff;
+                font-weight: 600;
+                font-size: 13px;
+                margin-top: -12px;
+                margin-left: -20px !important;
+                border-radius: 100px;
+                -webkit-border-radius: 100px;
+                -moz-border-radius: 100px;
+                -ms-border-radius: 100px;
+                -o-border-radius: 100px;
+            }
+            .level1{
+                margin-left: -20px !important;
+            }
+            .level3{
+                margin-right: -20px;
+             }
+        }
+    }
+}
+.payment-info{
+    display: flex;
+    width: 70%;
+    font-weight: 450;
+    color: rgb(152, 152, 152);
+    align-items: center;
+    justify-content: space-between;
+    .order-level{
+        color: #037711;
+        font-weight: 450;
+        margin-left: -80px !important;
+    }
+    .login-level{
+        margin-left: -20px !important;
+    }
+    .payment-level{
+        margin-right: -45px !important;
+    }
+}
+.get-start{
+    display: flex;
+    min-height: 500px;
+    align-items: center;
+    justify-content: center;
+    > form{
+        width: 400px;
+        padding: 20px;
+        height: 260px;
+        border: 1px solid #7C7C7C;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        > div{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        > .course-price > p{
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .vat{
+            margin-top: 15px;
+        }
+        .get-start-title{
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+        .total-price{
+            margin-top: 20px;
+            padding: 10px 30px;
+            border: 1px solid #7C7C7C;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+        .mobile{
+            margin-bottom: 10px;
+        }
+        .next-payment{
+            width: 100%;
+            display: flex;
+            border: none;
+            color: #fff;
+            padding: 8px;
+            font-weight: 600;
+            align-items: center;
+            background: #15A5CF;
+            text-decoration: none;
+            justify-content: center;
+            font-weight: 600;
+            margin-top: 30px;
+            box-shadow: 0px 5px 0px 0px #178D46;
+            background: linear-gradient(90deg, #23AD5A 0%, #03993F 63.5%, #00D655 97%);
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+        .send-code-next-pay{
+            margin-top: 3px;
+        }
+        .verification-number{
+            font-size: 14.5px !important; 
+            margin-top: -20px !important;
+            letter-spacing: -.8px;
+        }
+        .verification-code{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            > div{
+                width: 80px;
+                height: 50px;
+                cursor: pointer;
+                margin-top: 20px;
+                border: 1px solid #7C7C7C;
+                border-radius: 8px;
+                -webkit-border-radius: 8px;
+                -moz-border-radius: 8px;
+                -ms-border-radius: 8px;
+                -o-border-radius: 8px;
+            }
+        }
+        .send-code-time{
+            text-align: end;
+            margin-top: 20px !important;
+        }
+    }
+}
+.pay2,
+.pay1{
+    > .payment-border{
+        > .level1{
+            background-color: #037711;
+        }
+        > .level3{
+            background-color: rgb(152, 152, 152);
+        }
+    }
+}
+.pay3{
+    > .payment-border{
+        > .level1,
+        > .level3{
+            background-color: #037711;
+        }
+    }
+}
+.pay3 .payment-level,
+.pay3 .login-level,
+.pay2 .login-level{
+    color: #037711;
+}
+/* order-confirmation page or payment 4 page */
+.order-confirmation{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > .order-hr{
+        width: 500px;
+        border: 1px solid  #00AA00;
+    }
+}
+.order-confirmation-img{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    >p{
+        font-size: 14px;
+        color: #037711;
+        font-weight: 500;
+        margin-top: 10px !important;
+    }
+}
+.card-security > p{
+    font-size: 18px;
+}
+.check-merk{
+    margin-right: -35px;
+}
+.payment4{
+    gap: 150px;
+    margin-bottom: 30px;
+    display: flex;
+    margin-top:50px;
+    align-items: center;
+    justify-content: center;
+}
+.order-information{
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    border: 1.5px solid #868686;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    > h4{
+        font-weight: 500;
+        > img{
+            margin-left: 10px;
+        }
+    }
+    > ul{
+        padding: 0%;
+        margin-top: 20px;
+        > li{
+            display: flex;
+            padding: 15px 0 10px 0;
+            align-items: center;
+            color: #363636;
+            justify-content: space-between;
+            list-style: none;
+            font-size: 15px;
+            border-bottom: 1.5px solid #868686;
+        }
+        > li:last-child{
+            font-weight: 700;
+            font-size: 18px;
+        }
+    }
+}
+.ordered-payment-info{
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    border: 1.5px solid #868686;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    > h5{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        > p{
+            font-size: 11px;
+            color: #272B2B;
+            font-weight: normal;
+        }
+    }
+    > .bikash{
+        display: flex;
+        margin-top: 30px;
+        align-items: center;
+        border: 1px solid #E5E7EB;
+        justify-content: space-between;
+        > div{
+            display: flex;
+            padding: 15px;
+            align-items: center;
+            justify-content: space-between;
+            > input{
+                margin-right: 10px;
+            }
+            > p{
+                font-weight: 600;
+            }
+        }
+    }
+    .check-type{
+        display: flex;
+        margin-top: 15px;
+        align-items: center;
+        justify-content: start;
+        > P{
+            color: #272B2B;
+            font-size: 14px;
+            margin-left: 10px !important;
+        }
+        > input{
+            width: 20px;
+            height: 20px;
+            border: 3px solid #707070 !important;
+        }
+    }
+    a{
+        width: 100%;
+        border: none;
+        color: #fff;
+        margin-top: 30px;
+        display: flex;
+        padding:15px;
+        font-weight: 600;
+        align-items: center;
+        text-decoration: none;
+        justify-content: space-between;
+        background-color: #1DAB55;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+}
+/* order-confirmation page or payment 4 page */
+
+/* payment-successful start */
+.payment-successful{
+    display: flex;
+    margin-top: 130px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    > h1{
+        font-weight: 700;
+    }
+    .thankAndSupport{
+        font-weight: 550;
+    }
+    .received-payment{
+        width: 700px;
+        font-size: 13px;
+        text-align: center;
+        font-weight: normal;
+        color: #252424;
+        margin-top: 30px !important;
+    }
+}
+.Transaction{
+    gap: 30px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    > ul{
+        padding: 30px;
+        width: 100%;
+        height: 280px;
+        padding-top: 40px;
+        border: 2px solid #868686;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        >li{
+            list-style: none;
+            margin-top: 15px;
+            font-size: 20px;
+
+        }
+    }
+    > div{
+        height: 280px;
+        padding: 20px;
+        border: 2px solid #868686;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        > h4{
+            margin-top: 20px;
+        }
+    }
+}
+.backToHome{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    > a{
+        background: #169DC4;
+        color: #fff;
+        border: none;
+        text-decoration: none;
+        padding: 8px 35px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+}
+/* payment-successful end */

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/Store.css">
+    <link rel="stylesheet" href="assets/css/Navbar.css">
+    <link rel="stylesheet" href="assets/css/Footer.css">
+    <link rel="stylesheet" href="assets/css/Common.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Responsive.css">
+    <title>Store Details | ChefFolio</title>
+</head>
+<body>
+    <div id="preloader">
+        <img src="assets/images/preloader.gif" alt="">
+    </div>
+    <!-- ========= heading section start ========= -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body">
+            <div class="container">
+                <a class="navbar-brand" href="ForYou.html">
+                    <img src="assets/images/ChefFolio logo.png" alt="">
+                </a>
+                <button id="toggleBar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#CollapsID" aria-controls="CollapsID" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="collapse ps-4 navbar-collapse" id="CollapsID">
+                    <ul class="navbar-nav w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" id="ForYou" href="ForYou.html">For you</a>
+                            <a class="nav-link" id="Hire" href="Hire.html">Hire</a>
+                            <a class="nav-link" id="Company" href="Company.html">Company</a>
+                            <a class="nav-link" id="Store" href="Store.html">Store</a>
+                        </li>
+                        <li class="nav-item Search">
+                            <input type="text" name="Search" id="Search" placeholder="Search">
+                            <img src="assets/images/search.png" alt="">
+                        </li>                               
+                        <li class="nav-item">
+                            <div class="nav-link">
+                                <img id="message_btn" src="assets/images/Email.png" alt="Email icon">
+                            </div>
+                            <div class="nav-link">
+                                <img id="notification_btn" src="assets/images/bell icon.png" alt="bell icon">
+                            </div>
+                            <div class="nav-link">
+                                <img id="profile_btn" src="assets/images/profiles.png" alt="profile img">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- pop up bar start -->
+                <div id="profile">
+                    <div class="profileImg">
+                        <img src="assets/images/Ellipse 4.png" alt="profile image">
+                        <div>
+                            <img src="assets/images/Group 116.png" alt="Group icon">
+                            <h3>Arfatul Islam</h3>
+                        </div>
+                        <p>Position</p>
+                    </div>
+                    <p>ChefFolio Profile </p>
+                    <button class="switchAccount">
+                        <p>Switch to <b>Business</b> Account</p>
+                        <img src="assets/images/Refresh.png" alt="Refresh icon">
+                    </button>
+                    <button class="Available-job-switch">
+                        <p>Available for job</p>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+                        </div>
+                    </button>
+                    <button>My Course</button>
+                    <button class="switchAccount">
+                        <p>Change Language</p>
+                        <img src="assets/images/Refresh.png" alt="Refresh icon">
+                    </button>
+                    <button>help</button>
+                    <button class="Subscription-btn">
+                        <p>Buy <span>Subscription</span> </p>
+                        <img src="assets/images/Union.png" alt="Union icon">
+                    </button>
+                    <button class="SignOut-btn">Sign out</button>
+                </div>
+                <div id="notification">
+                    <div class="notification-head">
+                        <h6>
+                            <span>Notification</span>
+                            <span>(08)</span>
+                        </h6>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                </div>
+                <div id="message">
+                    <div class="notification-head">
+                        <h6>
+                            <span>Your Messages</span>
+                            <span>See all</span>
+                        </h6>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Arfatul Islam</p>
+                            <span class="activeMsg">Hello</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Leonardo Ai</p>
+                            <span class="activeMsg">Are you busy now?</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Rony titleigne</p>
+                            <span>You: i will pain you as soon as possible</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Habibur Rahman Khokon</p>
+                            <span>You: Hey Rakib early Meet me, its urgent</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Rakibul Hassan</p>
+                            <span>You: Hey Rakib early Meet me, its urgent</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Rakibul Hassan</p>
+                            <span>You: Hey Rakib early Meet me, its urgent</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Rakibul Hassan</p>
+                            <span>You: Hey Rakib early Meet me, its urgent</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- pop up bar end -->
+            </div>
+          </nav>
+    </header>
+    <!-- ========= heading section end ========= -->
+
+    <div class="container">
+        <!-- Bootcamp start -->
+        <div class="Bootcamp">
+            <div>
+                <h1>Chef <span>Level 1</span> Bootcamp * </h1>
+                <p class="bootcamp-title">Your Culinary Journey Begins Here!</p>
+                <p class="bootcamp-paragraph">Are you passionate about food and dream of becoming a chef? Whether you're a home cook wanting to elevate your skills or someone aspiring to enter the professional culinary world, our <b>Chef Level 1 Bootcamp</b> is the perfect start. This intensive, hands-on program will guide you through the essential techniques and knowledge needed to kickstart your culinary career.</p>
+                <div class="course-instructor">
+                    <h4>Course instructor</h4>
+                    <div>
+                        <img src="/assets/images/for cv 1.png" alt="Arfatul Islam image">
+                        <div>
+                            <h5>Arfatul Islam</h5>
+                            <div>
+                                <p>Head Chef & Author | Food Researcher | Culinary Business Expert & Career Mentor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pasta">
+                <img src="assets/images/how to make pasta 1.png" alt="">
+                <div>
+                    <h5>1600. TK</h5>
+                    <a href="Payment1.html">
+                        <p>Buy Now</p>
+                    </a>
+                    <h6>What is in this course</h6>
+                    <ul>
+                        <li>
+                            <img src="assets/images/User Account.png" alt="store images">
+                            <p><span>746</span> people are doing the course</p>
+                        </li>
+                        <li>
+                            <img src="assets/images/Pocket Watch.png" alt="store images">
+                            <p>It will take <span>20 hours</span> </p>
+                        </li>
+                        <li>
+                            <img src="assets/images/Video Conference.png" alt="store images">
+                            <p>50 videos</p>
+                        </li>
+                        <li>
+                            <img src="assets/images/Clipboard.png" alt="store images">
+                            <p>3 Assignments</p>
+                        </li>
+                        <li>
+                            <img src="assets/images/Oil Rig.png" alt="store images">
+                            <p>8 Resource</p>
+                        </li>
+                        <li>
+                            <img src="assets/images/Facebook.png" alt="store images">
+                            <p>Facebook support group</p>
+                        </li>
+                        <li>
+                            <img src="assets/images/Timeline Week.png" alt="store images">
+                            <p>The duration of the course <span>lifetime</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Bootcamp end -->
+
+        
+        <div class="Bootcamp-details">
+            <!-- why choose us start -->
+            <div class="why-choose-us">
+                <h5>Why Choose Our us</h5>
+                <ul>
+                    <li>
+                        <b>Expert-Led Training:</b>
+                        Learn from experienced chefs with years of industry knowledge, specializing in both traditional and modern cooking methods.
+                    </li>
+                    <li>
+                        <b>Practical Skills:</b>
+                        Master knife skills, food preparation, cooking techniques, and the art of presentation through step-by-step lessons.
+                    </li>
+                    <li>
+                        <b>Hands-On Experience:</b>
+                        Gain real-world experience as you cook alongside professionals in a fully-equipped kitchen.
+                    </li>
+                    <li>
+                        <b>Recipe for Success:</b>
+                        From kitchen safety to flavor pairing, our curriculum is designed to provide you with the foundation needed to excel in any kitchen.
+                    </li>
+                    <li>
+                        <b>Certification:</b>
+                        Upon completion, you'll receive a Level 1 Chef Certificate, recognized in the culinary industry.
+                    </li>
+                </ul>
+            </div>
+            <!-- why choose us end -->
+
+
+            <!-- What Will You Learn -->
+            <div class="What-Will-You-Learn">
+                <h5>What Will You Learn?</h5>
+                <ul>
+                    <li>
+                        <b>Basic Culinary Techniques:</b>
+                        From knife skills to sauteing, grilling, and roasting.
+                    </li>
+                    <li>
+                        <b>Kitchen Safety & Hygiene:</b>
+                        Understand food safety regulations and how to maintain a clean, efficient workspace.
+                    </li>
+                    <li>
+                        <b>Flavors & ingredients:</b>
+                        Explore the world of spices, herbs, and ingredients, and learn how to create balanced, flavorful dishes
+                    </li>
+                    <li>
+                        <b>Presentation & Planting:</b>
+                        Discover the secrets to making your dishes not only taste amazing but look restaurant-worthy too.
+                    </li>
+                </ul>
+            </div>
+            <!-- What Will You Learn -->
+
+            <!-- Who is This For -->
+            <div class="Who-is-This-For">
+                <h5>Who is This For?</h5>
+                <ul>
+                    <li>
+                        <b>Aspiring Chefs:</b>
+                        Individuals looking to build a strong foundation in culinary arts.
+                    </li>
+                    <li>
+                        <b>Home Cooks:</b>
+                        Passionate food lovers wanting to take their home-cooking skills to the next level.
+                    </li>
+                    <li>
+                        <b>Career Switchers:</b>
+                        If you're considering a career change and want to explore the exciting world of culinary arts, this bootcamp is great starting point.
+                    </li>
+                </ul>
+            </div>
+            <!-- Who is This For -->
+        </div>
+
+
+        <!-- Why Wait? -->
+         <div class="Why-Wait">
+            <h5>Why Wait? Start Your Culinary Journey Today!</h5>
+            <p>Enroll in the Chef Level ! Bootcamp and take the first step toward becoming a professional chef. Whether you want to pursue a carer in the culinary field or simply enhance you cooking skills, this bootcamp will give you the tools and confidence to succeed</p>
+         </div>
+        <!-- Why Wait? -->
+
+        <!-- suggested-course start -->
+         <h5 class="Suggested-course">Suggested Courses</h5>
+        <div class="trending">
+            <div class="trending-card">
+                <img src="assets/images/Like button.png" class="like-button" alt="like button">
+                <img src="assets/images/trending 1.png" class="trending-img" alt="trending image">
+                <div class="swiper-card-body">
+                    <h6>Bootstrap Carousel Lavel 1</h6>
+                    <div class="price">
+                        <p>Price</p>
+                        <p>1600.tk</p>
+                    </div>
+                    <div class="Author">
+                        <p>Author</p>
+                        <div>
+                            <img src="assets/images/profile red.png" alt="red profile">
+                            <p>Manta Brito</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trending-card">
+                <img src="assets/images/Like button.png" class="like-button" alt="like button">
+                <img src="assets/images/trending 3.png" class="trending-img" alt="trending image">
+                <div class="swiper-card-body">
+                    <h6>Bootstrap Carousel Lavel 1</h6>
+                    <div class="price">
+                        <p>Price</p>
+                        <p>1600.tk</p>
+                    </div>
+                    <div class="Author">
+                        <p>Author</p>
+                        <div>
+                            <img src="assets/images/profile red.png" alt="red profile">
+                            <p>Manta Brito</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trending-card">
+                <img src="assets/images/Like button.png" class="like-button" alt="like button">
+                <img src="assets/images/trending 2.png" class="trending-img" alt="trending image">
+                <div class="swiper-card-body">
+                    <h6>Bootstrap Carousel Lavel 1</h6>
+                    <div class="price">
+                        <p>Price</p>
+                        <p>1600.tk</p>
+                    </div>
+                    <div class="Author">
+                        <p>Author</p>
+                        <div>
+                            <img src="assets/images/profile red.png" alt="red profile">
+                            <p>Manta Brito</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trending-card">
+                <img src="assets/images/Like button.png" class="like-button" alt="like button">
+                <img src="assets/images/trending 1.png" class="trending-img" alt="trending image">
+                <div class="swiper-card-body">
+                    <h6>Bootstrap Carousel Lavel 1</h6>
+                    <div class="price">
+                        <p>Price</p>
+                        <p>1600.tk</p>
+                    </div>
+                    <div class="Author">
+                        <p>Author</p>
+                        <div>
+                            <img src="assets/images/profile red.png" alt="red profile">
+                            <p>Manta Brito</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="see-more-course">See more course</button>
+        <!-- suggested-course end -->
+
+    </div>
+    
+    <!-- ========= footer section end ========= -->
+    <footer>
+        <div class="container">
+            <div class="footer-area">
+                <div class="footer-images">
+                    <img src="assets/images/ChefFolio logo.png" alt="ChefFolio logo">
+                    <img src="assets/images/ChefFolio logo 2.png" alt="ChefFolio logo">
+                </div>
+                <div class="footer-text">
+                    <div>
+                        <h5>About</h5>
+                    </div>
+                    <div class="footer-download-app">
+                        <p>Download The App</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="footer-social">
+                        <h5>Social</h5>
+                        <ul>
+                            <li>
+                                <img src="assets/images/Facebook.png" alt="Facebook logo">
+                                <a href="#">Arfatul Islam </a>
+                            </li>
+                            <li>
+                                <img src="assets/images/Instagram Circle.png" alt="Instagram logo">
+                                <a href="#">arfatul_islam25</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/LinkedIn Circled.png" alt="LinkedIn logo">
+                                <a href="#">Arfatul_islam</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/TwitterX.png" alt="TwitterX logo">
+                                <a href="#">Arfatuk</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/YouTube Squared.png" alt="YouTube Squared logo">
+                                <a href="#">ArfatukIslamUK</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/Internet.png" alt="Internet logo">
+                                <a href="#">arfatulislam.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end">
+                <img src="assets/images/Main logo-01 1.png" alt="Main logo">
+                <p>Do not sell or share my personal Information</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ========= footer section end ========= -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/696233e01c.js" crossorigin="anonymous"></script>
+</body>
+</html>

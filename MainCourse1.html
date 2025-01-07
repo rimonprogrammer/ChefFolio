@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/Course.css">
+    <link rel="stylesheet" href="assets/css/Navbar.css">
+    <link rel="stylesheet" href="assets/css/Footer.css">
+    <link rel="stylesheet" href="assets/css/Common.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Responsive.css">
+    <title>Main Course | ChefFolio</title>
+</head>
+<body>
+    <div id="preloader">
+        <img src="assets/images/preloader.gif" alt="">
+    </div>
+    <!-- ========= heading section start ========= -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body">
+            <div class="container">
+                <a class="navbar-brand" href="ForYou.html">
+                    <img src="assets/images/ChefFolio logo.png" alt="">
+                </a>
+                <button id="toggleBar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#CollapsID" aria-controls="CollapsID" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="collapse ps-4 navbar-collapse" id="CollapsID">
+                    <ul class="navbar-nav w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" id="ForYou" href="ForYou.html">For you</a>
+                            <a class="nav-link" id="Hire" href="Hire.html">Hire</a>
+                            <a class="nav-link" id="Company" href="Company.html">Company</a>
+                            <a class="nav-link" id="Store" href="Store.html">Store</a>
+                        </li>
+                        <li class="nav-item Search">
+                            <input type="text" name="Search" id="Search" placeholder="Search">
+                            <img src="assets/images/search.png" alt="">
+                        </li>                               
+                        <li class="nav-item">
+                            <div class="nav-link">
+                                <img id="message_btn" src="assets/images/Email.png" alt="Email icon">
+                            </div>
+                            <div class="nav-link">
+                                <img id="notification_btn" src="assets/images/bell icon.png" alt="bell icon">
+                            </div>
+                            <div class="nav-link">
+                                <img id="profile_btn" src="assets/images/profiles.png" alt="profile img">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- pop up bar start -->
+                <div id="profile">
+                    <div class="profileImg">
+                        <img src="assets/images/Ellipse 4.png" alt="profile image">
+                        <div>
+                            <img src="assets/images/Group 116.png" alt="Group icon">
+                            <h3>Arfatul Islam</h3>
+                        </div>
+                        <p>Position</p>
+                    </div>
+                    <p>ChefFolio Profile </p>
+                    <button class="switchAccount">
+                        <p>Switch to <b>Business</b> Account</p>
+                        <img src="assets/images/Refresh.png" alt="Refresh icon">
+                    </button>
+                    <button class="Available-job-switch">
+                        <p>Available for job</p>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+                        </div>
+                    </button>
+                    <button>My Course</button>
+                    <button class="switchAccount">
+                        <p>Change Language</p>
+                        <img src="assets/images/Refresh.png" alt="Refresh icon">
+                    </button>
+                    <button>help</button>
+                    <button class="Subscription-btn">
+                        <p>Buy <span>Subscription</span> </p>
+                        <img src="assets/images/Union.png" alt="Union icon">
+                    </button>
+                    <button class="SignOut-btn">Sign out</button>
+                </div>
+                <div id="notification">
+                    <div class="notification-head">
+                        <h6>
+                            <span>Notification</span>
+                            <span>(08)</span>
+                        </h6>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                </div>
+                <div id="message">
+                    <div class="notification-head">
+                        <h6>
+                            <span>Your Messages</span>
+                            <span>See all</span>
+                        </h6>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Arfatul Islam</p>
+                            <span class="activeMsg">Hello</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Leonardo Ai</p>
+                            <span class="activeMsg">Are you busy now?</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Rony titleigne</p>
+                            <span>You: i will pain you as soon as possible</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Habibur Rahman Khokon</p>
+                            <span>You: Hey Rakib early Meet me, its urgent</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Rakibul Hassan</p>
+                            <span>You: Hey Rakib early Meet me, its urgent</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Rakibul Hassan</p>
+                            <span>You: Hey Rakib early Meet me, its urgent</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Rakibul Hassan</p>
+                            <span>You: Hey Rakib early Meet me, its urgent</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- pop up bar end -->
+            </div>
+          </nav>
+    </header>
+    <!-- ========= heading section end ========= -->
+
+
+
+    <div class="container main-course">
+        <h2>Course Name</h2>
+
+        <div class="course-progress">
+            <div>
+                <div class="progress-info">
+                    <h3>Course Progress</h3>
+                    <p>You have successfully enrolled in the course</p>
+                    <div class="progress"></div>
+                </div>
+                <img src="assets/images/income source.png" alt="img">
+            </div>
+            <a href="MainCourse2.html" class="start-button"><p>Start Now</p></a>
+            <table class="support-table">
+                <tr class="table-title">
+                    <td>Facebook Support Group</td>
+                    <td class="hide-td">Bootcamp Related Question</td>
+                </tr>
+                <tr class="table-body">
+                    <td>Join the exclusive Facebook support group to discuss any problems related to spoken English.</td>
+                    <td class="hide-td">
+                        <p>Every Saturday at 8:30 PM</p>
+                        <p>Join the Facebook support group to get all the information related to the class.</p>    
+                    </td>
+                </tr>
+            </table>
+            <table class="support-table support-table-hide">
+                <tr class="table-title">
+                    <td>Bootcamp Related Question</td>
+                </tr>
+                <tr class="table-body">
+                    <td>
+                        <p>Every Saturday at 8:30 PM</p>
+                        <p>Join the Facebook support group to get all the information related to the class.</p>    
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accor-title">
+                    Course Syllabus 
+                </h2>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseThree">
+                        <div>
+                            <p>Learn to describe in English</p>  <br>
+                            <span>6 videos 1 quiz</span>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                       <div>
+                            <p>Spoken English at Home | Exclusive Support Group</p>
+                       </div>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div>
+                            <p>Tell your relevant answer!</p>
+                            <span>5 videos 1 quiz</span>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                        <div>
+                            <p>Learn to describe in English </p>
+                            <span>10 videos 1 quiz</span>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="instructor">
+            <h4>Course Instructor</h4>
+            <div>
+                <img src="assets/images/for cv 1.png" alt="profile image">
+                <div class="instructor-info">
+                    <h4>Arfatul Islam</h4>
+                    <p>MSc (English), University of Oxford (UK);BA, MA (English), University of Dhaka;IELTS: 8.5</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    <!-- ========= footer section end ========= -->
+    <footer>
+        <div class="container">
+            <div class="footer-area">
+                <div class="footer-images">
+                    <img src="assets/images/ChefFolio logo.png" alt="ChefFolio logo">
+                    <img src="assets/images/ChefFolio logo 2.png" alt="ChefFolio logo">
+                </div>
+                <div class="footer-text">
+                    <div>
+                        <h5>About</h5>
+                    </div>
+                    <div class="footer-download-app">
+                        <p>Download The App</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="footer-social">
+                        <h5>Social</h5>
+                        <ul>
+                            <li>
+                                <img src="assets/images/Facebook.png" alt="Facebook logo">
+                                <a href="#">Arfatul Islam </a>
+                            </li>
+                            <li>
+                                <img src="assets/images/Instagram Circle.png" alt="Instagram logo">
+                                <a href="#">arfatul_islam25</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/LinkedIn Circled.png" alt="LinkedIn logo">
+                                <a href="#">Arfatul_islam</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/TwitterX.png" alt="TwitterX logo">
+                                <a href="#">Arfatuk</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/YouTube Squared.png" alt="YouTube Squared logo">
+                                <a href="#">ArfatukIslamUK</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/Internet.png" alt="Internet logo">
+                                <a href="#">arfatulislam.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end">
+                <img src="assets/images/Main logo-01 1.png" alt="Main logo">
+                <p>Do not sell or share my personal Information</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ========= footer section end ========= -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/696233e01c.js" crossorigin="anonymous"></script>
+</body>
+</html>

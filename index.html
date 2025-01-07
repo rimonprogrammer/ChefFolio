@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/ForYou.css">
+    <link rel="stylesheet" href="assets/css/Navbar.css">
+    <link rel="stylesheet" href="assets/css/Footer.css">
+    <link rel="stylesheet" href="assets/css/Profile.css">
+    <link rel="stylesheet" href="assets/css/Common.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Responsive.css">
+    <title>Home | ChefFolio</title>
+</head>
+<body class="hi">
+    <div id="preloader">
+        <img src="assets/images/preloader.gif" alt="">
+    </div>
+    <!-- ========= heading section start ========= -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/ChefFolio logo.png" alt="">
+                </a>
+                <button id="toggleBar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#CollapsID" aria-controls="CollapsID" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="CollapsID">
+                    <ul class="navbar-nav home-navbar w-100">
+                        <li class="nav-item Search">
+                            <input type="text" name="Search" id="Search" placeholder="Search">
+                            <img src="assets/images/search.png" alt="">
+                        </li>                              
+                        <li class="nav-item home-auth">
+                            <div class="nav-link">
+                                <img id="notification_btns" src="assets/images/bell icon.png" alt="bell icon">
+                            </div>
+                            <div class="nav-link">
+                                <a href="Login.html" >
+                                    <button class="LogIn">Log In</button>
+                                </a>
+                            </div>
+                            <div class="nav-link">
+                                <a href="SignUp.html">
+                                    <button class="SignUp">Sign Up</button>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- pop up bar start -->
+                <div id="notifications" class="notifications">
+                    <div class="notification-head">
+                        <h6>
+                            <span>Notification</span>
+                            <span>(08)</span>
+                        </h6>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                </div>
+                <!-- pop up bar end -->
+            </div>
+          </nav>
+    </header>
+    <!-- ========= heading section end ========= -->
+
+    <div class="home">
+        <img src="assets/images/home bg.png" alt="">
+    </div>
+
+
+    <!-- blogs start -->
+    <div class="container blogs">
+        <div>
+            <div>
+                <div class="cross">
+                    <i class="blog_cross fa-solid fa-xmark"></i>
+                </div>
+                <div class="blog-top">
+                    <div>
+                        <img src="assets/images/profile red.png" alt="profile icon">
+                        <p>Arfatul_islam</p>
+                    </div>
+                    <div class="followAndMsg">
+                        <button class="follow" id="follow">
+                            <i class="fa-solid fa-check followed-check"></i>
+                            <i class="fa-solid fa-user-plus follow-user"></i>
+                            <p>Follow</p>
+                        </button>
+                        <a href="Inbox.html">
+                            <p>Messages</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-Title">
+                    <h1>Projects Name</h1>
+                    <div>
+                        <p>1.5k</p>
+                        <img src="assets/images/love-1.png" class="like-btn" alt="love icon">
+                        <img src="assets/images/love red.png" class="love-btn" alt="love button">
+                    </div>
+                </div>
+                <div class="About-project">
+                    About projects
+                </div>
+                <div class="blog-bottom">
+                    <div class="blog-img">
+                        <img src="assets/images/blog 1.png" alt="blog img">
+                        <img src="assets/images/Mash Potatoes Thumbnail Design 1.png" alt="blog img">
+                        <img src="assets/images/trending 2.png" alt="blog img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blogs end -->
+     
+    
+    <div class="container pt-3">
+        <div id="forYouSection" class="home-section"></div>
+        <div class="forYouSeeMore">
+            <button class="SeeMore-btn">See More</button>
+        </div>
+    </div>
+
+    <!-- ========= footer section end ========= -->
+     <footer>
+        <div class="container">
+            <div class="footer-area">
+                <div class="footer-images">
+                    <img src="assets/images/ChefFolio logo.png" alt="ChefFolio logo">
+                    <img src="assets/images/ChefFolio logo 2.png" alt="ChefFolio logo">
+                </div>
+                <div class="footer-text">
+                    <div>
+                        <h5>About</h5>
+                    </div>
+                    <div class="footer-download-app">
+                        <p>Download The App</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="footer-social">
+                        <h5>Social</h5>
+                        <ul>
+                            <li>
+                                <img src="assets/images/Facebook.png" alt="Facebook logo">
+                                <a href="#">Arfatul Islam </a>
+                            </li>
+                            <li>
+                                <img src="assets/images/Instagram Circle.png" alt="Instagram logo">
+                                <a href="#">arfatul_islam25</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/LinkedIn Circled.png" alt="LinkedIn logo">
+                                <a href="#">Arfatul_islam</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/TwitterX.png" alt="TwitterX logo">
+                                <a href="#">Arfatuk</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/YouTube Squared.png" alt="YouTube Squared logo">
+                                <a href="#">ArfatukIslamUK</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/Internet.png" alt="Internet logo">
+                                <a href="#">arfatulislam.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end">
+                <img src="assets/images/Main logo-01 1.png" alt="Main logo">
+                <p>Do not sell or share my personal Information</p>
+            </div>
+        </div>
+     </footer>
+    <!-- ========= footer section end ========= -->
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/696233e01c.js" crossorigin="anonymous"></script>
+    <script>
+        const forYoyData = [
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                loveImg : "assets/images/love-1.png",
+                profile: "assets/images/profile.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            },
+            {
+                id: 1,
+                love : "2k",
+                daysAgo: "2 day ago",
+                img: "assets/images/Rectangle.png",
+                profile: "assets/images/profile.png",
+                loveImg : "assets/images/love-1.png",
+                name : "Arfatul islam",
+            }
+        ]
+
+        let html = '';
+        forYoyData.map((data) =>{
+            html += forYouDataGet(data);
+        });
+
+        const forYouSection = document.getElementById('forYouSection');
+        forYouSection.innerHTML = html;
+
+        function forYouDataGet (info){
+        const {img, love, daysAgo, profile, loveImg, name} = info;
+        const htmlcode = `
+            <div class="cards">
+                <img class="card-img" src=${img} alt="card-img-top">
+                <div>
+                    <div class="proImg">
+                        <img src=${profile} alt="card-img-top">
+                        <div>
+                            <p>${name}</p>
+                            <p>${daysAgo}</p>
+                        </div>
+                    </div>
+                    <div class="loveImg">
+                        <p>${love}</p>
+                        <img class="like-icon" src=${loveImg} alt="card-img-top">
+                    </div>
+                </div>
+            </div>
+        `;
+        return htmlcode;
+    };
+    </script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

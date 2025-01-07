@@ -1,0 +1,249 @@
+.hire-top{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-top: 70px;
+    background: url('/assets/images/hire-bg.png'), linear-gradient(rgba(255, 255, 255, 0.1), rgba(2, 0, 11, 0.2));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    > div {
+        gap: 300px;
+        padding: 20px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        background-color: #FFFFFF1A;
+        backdrop-filter: blur(4px);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        > div{
+            color: white;
+            max-width: 810px;
+            >h1{
+                font-weight: 700;
+                font-size: 32px;
+                > span{
+                    color: #00FFFF;
+                }
+            }
+            >p{
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+    }
+}
+/* hire top end */
+
+/* search area start */
+.search-area{
+    gap: 30px;
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+    > div{
+        height: 40px;
+        display: flex;
+        color: #252525;
+        font-weight: 700;
+        align-items: center;
+    }
+    > .head-chefs{
+        padding-right: 30px;
+        border-right: 2.5px solid;
+    }
+}
+/* search area end */
+
+/* Category-section start */
+.Category-section{
+    gap: 10px;
+    display: flex;
+    margin-top: 40px;
+    align-items: start;
+    justify-content: space-around;
+}
+.selectOption{
+    min-width: 230px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    > button{
+        width: 100%;
+        border: none;
+        display: flex;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: 500;
+        align-items: center;
+        border: 1px solid rgb(187, 187, 180);
+        border-top: none;
+        justify-content: space-between;
+        background-color: transparent;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        >img{
+            width: 20px;
+            margin-right: 8px;
+        }
+        #arrow_top{
+            display: none;
+        }
+        .active_arrow_top{
+            display: block !important;
+        }
+        .unActive_arrow_down{
+            display: none;
+        }
+    }
+    .active_category_btn{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    > div{
+        > div{
+            border: 1px solid rgb(187, 187, 180);
+            border-top: none;
+            border-bottom: none;
+            padding: 10px 15px;
+            font-weight: 400;
+            cursor: pointer;
+            > input{
+                height: 15px;
+                width: 15px;
+                margin-right: 10px;
+            }
+            > label{
+                cursor: pointer;
+            }
+        }
+    }
+    > div{
+        >button{
+            margin: 0%;
+            padding: 10px 15px;
+            font-weight: 400;
+            display: block;
+            width: 100%;
+            text-align: start;
+            background-color: transparent;
+            border: 1px solid rgb(187, 187, 180);
+        }
+        > .full-time{
+            border-bottom: none !important;
+        }
+        > button:last-child{
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border: 2px solid rgb(201, 201, 197);
+            border-top: none;
+            box-shadow: rgba(68, 62, 62, 0) 0px 10px 20px, #0404043b 0px 6px 5px;
+        }
+    }
+    #button_option{
+        display: none;
+    }
+    .active_btn_option{
+        display: block !important;
+    }
+} 
+/* Category-option end */
+
+/* Category-option start */
+#Categories{
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    > div{
+        width: 285px;
+        padding: 18px;
+        margin-bottom: 40px;
+        padding-bottom: 25px;
+        border: 2px solid rgb(201, 201, 197);
+        box-shadow: rgba(68, 62, 62, 0) 0px 10px 20px, #0404043b 0px 6px 5px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        > .seller-info{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            > div{
+                padding-left: 20px;
+                >h6{
+                    color: #282828;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                >.position{
+                    font-family: Poppins;
+                    font-size: 11px;
+                    font-weight: 400;
+                    color: #282828;
+                    margin-top: -5px !important;
+                }
+                >.follower{
+                    color: #4D4A4A;
+                    font-size: 8px;
+                    font-style: italic;
+                    font-weight: 700;
+                    margin-top: 8px !important;
+                }
+            }
+        }
+        > .hire-hr{
+            padding: 0%;
+            margin: 4% 0;
+        }
+        .about-info{
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+            >p{
+                color: #282828;
+                font-family: Poppins;
+                font-size: 13.5px;
+                font-weight: 500;
+            }
+        }
+        > button{
+            width: 100%;
+            margin-top: 30px;
+            border: none;
+            color: #fff;
+            font-size: 14.5px;
+            background-color: #5384CC;
+            width: Fixed (230.79px)px;
+            padding: 7px 34px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+    }
+}
+.seller-info{
+    >img{
+        height: 50px;
+        width: 50px;
+    }
+}
+/* Category-section end */

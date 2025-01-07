@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="assets/css/Profile.css">
+    <link rel="stylesheet" href="assets/css/Navbar.css">
+    <link rel="stylesheet" href="assets/css/Footer.css">
+    <link rel="stylesheet" href="assets/css/Common.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Responsive.css">
+    <title>Company Own profile | ChefFolio</title>
+</head>
+<body id="companyOwnProBody">
+    <div id="preloader">
+        <img src="assets/images/preloader.gif" alt="">
+    </div>
+    <!-- ========= heading section start ========= -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body">
+            <div class="container">
+                <a class="navbar-brand" href="ForYou.html">
+                    <img src="assets/images/ChefFolio logo.png" alt="">
+                </a>
+                <button id="toggleBar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#CollapsID" aria-controls="CollapsID" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="collapse ps-4 navbar-collapse" id="CollapsID">
+                    <ul class="navbar-nav w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" id="ForYou" href="ForYou.html">For you</a>
+                            <a class="nav-link" id="Hire" href="Hire.html">Hire</a>
+                            <a class="nav-link" id="Company" href="Company.html">Company</a>
+                            <a class="nav-link" id="Store" href="Store.html">Store</a>
+                        </li>
+                        <li class="nav-item Search">
+                            <input type="text" name="Search" id="Search" placeholder="Search">
+                            <img src="assets/images/search.png" alt="">
+                        </li>                               
+                        <li class="nav-item">
+                            <div class="nav-link">
+                                <img id="message_btn" src="assets/images/Email.png" alt="Email icon">
+                            </div>
+                            <div class="nav-link">
+                                <img id="notification_btn" src="assets/images/bell icon.png" alt="bell icon">
+                            </div>
+                            <div class="nav-link">
+                                <img id="profile_btn" src="assets/images/profiles.png" alt="profile img">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- pop up bar start -->
+                <div id="profile">
+                    <div class="profileImg">
+                        <img src="assets/images/Ellipse 4.png" alt="profile image">
+                        <div>
+                            <img src="assets/images/Group 116.png" alt="Group icon">
+                            <h3>Arfatul Islam</h3>
+                        </div>
+                        <p>Position</p>
+                    </div>
+                    <div class="navigate">
+                        <a href="CompanyOwnProfile.html">ChefFolio Profile </a>
+                    </div>
+                    <button class="switchAccount">
+                        <p>Switch to <b>Personal</b> Account</p>
+                        <img src="assets/images/Refresh.png" alt="Refresh icon">
+                    </button>
+                    <div class="navigate">
+                        <a href="CompanySetting.html">Setting</a>
+                    </div>
+                    <button class="switchAccount">
+                        <p>Change Language</p>
+                        <img src="assets/images/Refresh.png" alt="Refresh icon">
+                    </button>
+                    <button>help</button>
+                    <button class="Subscription-btn">
+                        <p>Buy <span>Subscription</span> </p>
+                        <img src="assets/images/Union.png" alt="Union icon">
+                    </button>
+                    <button class="SignOut-btn">Sign out</button>
+                </div>
+                <div id="notification">
+                    <div class="notification-head">
+                        <h6>
+                            <span>Notification</span>
+                            <span>(08)</span>
+                        </h6>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <p><b>John Calving</b> commented on your project about this pos</p>
+                    </div>
+                </div>
+                <div id="message">
+                    <div class="notification-head">
+                        <h6>
+                            <span>Your Messages</span>
+                            <span>See all</span>
+                        </h6>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Arfatul Islam</p>
+                            <span class="activeMsg">Hello</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Leonardo Ai</p>
+                            <span class="activeMsg">Are you busy now?</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Rony titleigne</p>
+                            <span>You: i will pain you as soon as possible</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Habibur Rahman Khokon</p>
+                            <span>You: Hey Rakib early Meet me, its urgent</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Rakibul Hassan</p>
+                            <span>You: Hey Rakib early Meet me, its urgent</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Rakibul Hassan</p>
+                            <span>You: Hey Rakib early Meet me, its urgent</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/images/profile.png" alt="profile icon">
+                        <div>
+                            <p>Rakibul Hassan</p>
+                            <span>You: Hey Rakib early Meet me, its urgent</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- pop up bar end -->
+            </div>
+          </nav>
+    </header>
+    <!-- ========= heading section end ========= -->
+
+    <!-- blogs start -->
+    <div class="container blogs">
+        <div>
+            <div>
+                <div class="cross">
+                    <i class="blog_cross fa-solid fa-xmark"></i>
+                </div>
+                <div class="blog-top">
+                    <div>
+                        <img src="assets/images/profile red.png" alt="profile icon">
+                        <p>Arfatul_islam</p>
+                    </div>
+                    <button>Edit Title</button>
+                </div>
+                <div class="Projects-Title">
+                    <h1>Projects Title: Creative Youtube thumbnail</h1>
+                    <div>
+                        <p>1.5k</p>
+                        <img src="assets/images/love-1.png" class="like-btn" alt="love icon">
+                        <img src="assets/images/love red.png" class="love-btn" alt="love button">
+                    </div>
+                </div>
+                <div class="blog-bottom">
+                    <div class="blog-img">
+                        <img src="assets/images/blog 1.png" alt="blog img">
+                        <img src="assets/images/Mash Potatoes Thumbnail Design 1.png" alt="blog img">
+                        <img src="assets/images/trending 2.png" alt="blog img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blogs end -->
+
+    <!-- upload image start -->
+    <div class="container upload-images">
+        <div>
+            <div>
+                <form action="">
+                    <label>Project Title</label>
+                    <input type="text">
+                    
+                    <button type="button">
+                        <img src="assets/images/Add Image.png" alt="Add img icon">
+                        <p>Upload image</p>
+                    </button>
+    
+                    <div>
+                        <div>
+                            <button type="submit">Publish Now</button>
+                            <button type="button" class="Discard_project">Discard</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- upload image end -->
+
+
+    <!-- create-job-post start -->
+    <div class="container create-job-post">
+        <div>
+            <div>
+                <h1>Create a Job Post <span>Requirement</span></h1>
+                <form action="">
+                    <textarea placeholder="Write Something About Your Project" name="about_project" id="about_project"></textarea>
+                    
+                    <div>
+                        <label for="Education">Educational Qualification</label>
+                        <input type="text" name="Education" id="Education" placeholder="SSC/HSC/BBA/other's">
+                    </div>
+                    <div>
+                        <label for="Location">Location</label>
+                        <input type="text" name="Location" id="Location" placeholder="Anywhere">
+                    </div>
+                    <div class="job-post-btn">
+                        <div>
+                            <a href="Company.html" id="Publish_job" type="submit">Publish Now</a>
+                            <button class="Discard_job" type="button">Discard</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- create-job-post end -->
+    
+    
+    <!-- job-application start -->
+    <div class="container job-application">
+        <div>
+            <div>
+                <div class="cross">
+                    <i class="job_application_cross fa-solid fa-xmark"></i>
+                </div>
+                <div class="job-img">
+                    <img src="assets/images/Ellipse 4.png" alt="profile icon">
+                    <p>join the <b>MFIT Super 5 Print</b> Design Team- Kickstart Your Design Career</p>
+                </div>
+                <div class="apply-btn">
+                    <button class="apply_job">Apply on ChefFolio</button>
+                </div>
+                <div class="job-application-bottom">
+                    <div></div>
+                    <div>
+                        <div>
+                            <p>JOB TYPE</p>
+                            <h5>Fulltime</h5>
+                        </div>
+                        <div>
+                            <p>JOB LOCATION</p>
+                            <h5>Anywhere</h5>
+                        </div>
+                        <div>
+                            <p>JOB POSTED</p>
+                            <h5>dd/mm/yy</h5>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    <!-- job-application end -->
+
+    <!-- submit-job-application start -->
+    <div class="container submit-job-application">
+        <div>
+            <div>
+                <div class="cross-icon">
+                    <i class="submit_cross fa-solid fa-xmark"></i>
+                </div>
+                <p>Join the MFIT Super 5 print Design Team - Kickstart Your Design Career! - Make future IT</p>
+                <div>
+                    <h1>Apply with your <b>ChefFolio</b> Profile
+                        or <span>CV</span>
+                    </h1>
+                </div>
+                <form>
+                    <div class="Application-details">
+                        <div class="Application-info">
+                            <div>
+                                <img src="assets/images/ractangle big.png" alt="profile icon">
+                                <h4>Rony designer</h4>
+                                <div>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p>Bangladesh</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <p>100</p>
+                                    <p>Recommendation</p>
+                                </div>
+                                <div>
+                                    <p>500</p>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- left end -->
+            
+                        <div class="Application-message">
+                            <textarea name="Messages" id="Messages">Your Messages</textarea>
+                            <button type="button">
+                                <div>Upload <b>CV</b></div>
+                                <img src="assets/images/Add File.png" alt="Add file icon">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="application-submit">
+                        <button type="submit">Submit Application</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- submit-job-application end -->
+
+
+    
+    <div class="client-profile">
+        <div>
+            <img class="CMN_Upload" src="assets/images/Download from the Cloud.png" alt="Download from the Cloud">
+            <p>Upload</p>
+            <input type="file" name="file" class="file">
+        </div>
+    </div>
+    <div class="container client">
+        <!-- client info start -->
+        <div class="client-info">
+            <div class="name-hero">
+                <img src="assets/images/Ellipse 4.png" alt="Ellipse">
+                <div>
+                    <h4>Rokomary</h4>
+                    <img src="assets/images/Subscription icon.png" alt="Union icon">
+                </div>
+                <p>Position</p>
+            </div>
+            <a href="CompanySetting.html" class="edit-profile">
+                <p>Edit your profile</p>
+                <i class="fa-solid fa-pen"></i>
+            </a>
+            <ul>
+                <li>
+                    <p>Followers</p>
+                    <p>1.7M</p>
+                </li>
+                <li>
+                    <p>Following</p>
+                    <p>270</p>
+                </li>
+            </ul>
+            <div class="about-me">
+                <h6>About Company</h6>
+                <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+        <!-- client info end -->
+
+        <div class="Completed-Bootcamp">
+            <button>Featured</button>
+            <div class="Bootcamp-img">
+                <div class="masonry_item">
+                    <img src="assets/images/Mash Potatoes Thumbnail Design.png" alt="how to make pasta">
+                </div>
+                <div>
+                    <img src="assets/images/Rectangle.png" alt="Rectangle img">
+                </div>
+                <div>
+                    <img src="assets/images/Rectangle.png" alt="Rectangle img">
+                </div>
+                <div>
+                    <img src="assets/images/Rectangle.png" alt="Rectangle img">
+                </div>
+                <div>
+                    <img src="assets/images/Rectangle.png" alt="Rectangle img">
+                </div>
+                <div>
+                    <img src="assets/images/Rectangle.png" alt="Rectangle img">
+                </div>
+                <div>
+                    <img src="assets/images/Rectangle.png" alt="Rectangle img">
+                </div>
+                <div>
+                    <button class="upload_project">
+                        <i class="fa-solid fa-plus"></i>
+                        <p>Upload Project</p>
+                    </button>
+                </div>
+            </div> 
+
+
+            <!-- bottom -->
+            <div class="Available-jobs">
+                <button class="create_job">
+                    Create a job post
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+                <p>(01)</p>
+            </div>
+            
+            <div class="jobs">
+                <div>
+                    <img src="assets/images/profile red.png" alt="profile icon">
+                    <div>
+                        <p>Timeless Content</p>
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Location</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="name">Pastry Chef</p>
+                <p class="des">Description about  job </p>
+                <div class="job-bottom">
+                    <p>7 Hours ago</p>
+                    <button class="view_job">View</button>
+                </div>
+            </div>
+            <div class="Recommendation">
+                <div class="Reviews">
+                    Reviews
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <img src="assets/images/profile.png" alt="Rectangle">
+                            <h6>Name here</h6>
+                        </div>
+                        <p>Lorem  amet qui iste minima velit eius molestiae corrupti excepturi non id facilis reiciendis ad itaque quos, vero numquam, sit quod sed quia incidunt quam illum. Doloribus, accusantium cumque! Veniam dolores architecto inventore in unde! Iste vitae, atque nemo quasi voluptas tempora, soluta porro optio consectetur commodi impedit saepe sunt nisi. Corporis commodi repudiandae impedit, </p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="assets/images/profile.png" alt="Rectangle">
+                            <h6>Name here</h6>
+                        </div>
+                        <p>Lorem  amet qui iste minima velit eius molestiae corrupti excepturi non id facilis reiciendis ad itaque quos, vero numquam, sit quod sed quia incidunt quam illum. Doloribus, accusantium cumque! Veniam dolores architecto inventore in unde! Iste vitae, atque nemo quasi voluptas tempora, soluta porro optio consectetur commodi impedit saepe sunt nisi. Corporis commodi repudiandae impedit, </p>
+                    </div>                    <div>
+                        <div>
+                            <img src="assets/images/profile.png" alt="Rectangle">
+                            <h6>Name here</h6>
+                        </div>
+                        <p>Lorem  amet qui iste minima velit eius molestiae corrupti excepturi non id facilis reiciendis ad itaque quos, vero numquam, sit quod sed quia incidunt quam illum. Doloribus, accusantium cumque! Veniam dolores architecto inventore in unde! Iste vitae, atque nemo quasi voluptas tempora, soluta porro optio consectetur commodi impedit saepe sunt nisi. Corporis commodi repudiandae impedit, </p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="assets/images/profile.png" alt="Rectangle">
+                            <h6>Name here</h6>
+                        </div>
+                        <p>Lorem  amet qui iste minima velit eius molestiae corrupti excepturi non id facilis reiciendis ad itaque quos, vero numquam, sit quod sed quia incidunt quam illum. Doloribus, accusantium cumque! Veniam dolores architecto inventore in unde! Iste vitae, atque nemo quasi voluptas tempora, soluta porro optio consectetur commodi impedit saepe sunt nisi. Corporis commodi repudiandae impedit, </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!-- ========= footer section end ========= -->
+    <footer>
+        <div class="container">
+            <div class="footer-area">
+                <div class="footer-images">
+                    <img src="assets/images/ChefFolio logo.png" alt="ChefFolio logo">
+                    <img src="assets/images/ChefFolio logo 2.png" alt="ChefFolio logo">
+                </div>
+                <div class="footer-text">
+                    <div>
+                        <h5>About</h5>
+                    </div>
+                    <div class="footer-download-app">
+                        <p>Download The App</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="footer-social">
+                        <h5>Social</h5>
+                        <ul>
+                            <li>
+                                <img src="assets/images/Facebook.png" alt="Facebook logo">
+                                <a href="#">Arfatul Islam </a>
+                            </li>
+                            <li>
+                                <img src="assets/images/Instagram Circle.png" alt="Instagram logo">
+                                <a href="#">arfatul_islam25</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/LinkedIn Circled.png" alt="LinkedIn logo">
+                                <a href="#">Arfatul_islam</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/TwitterX.png" alt="TwitterX logo">
+                                <a href="#">Arfatuk</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/YouTube Squared.png" alt="YouTube Squared logo">
+                                <a href="#">ArfatukIslamUK</a>
+                            </li>
+                            <li>
+                                <img src="assets/images/Internet.png" alt="Internet logo">
+                                <a href="#">arfatulislam.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end">
+                <img src="assets/images/Main logo-01 1.png" alt="Main logo">
+                <p>Do not sell or share my personal Information</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ========= footer section end ========= -->
+
+    
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/696233e01c.js" crossorigin="anonymous"></script>
+</body>
+</html>
